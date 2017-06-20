@@ -1,0 +1,6 @@
+# Ignore Binary Files
+
+*.o
+
+
+sysinfo

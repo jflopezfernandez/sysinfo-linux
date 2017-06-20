@@ -1,13 +1,18 @@
 
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <functional>
+#include "includes/Main.hpp"
+
+void print(int n);
 
 
 int main()
 {
-	printf("testing...\n");
-
+	initializeProgram();
+	
 	return EXIT_SUCCESS;
+}
+
+
+void print(int n)
+{
+	std::cout << "n: " << n << std::endl;
 }
